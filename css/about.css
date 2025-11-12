@@ -1,0 +1,83 @@
+/* About Section */
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.about-image-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: stretch;
+  margin-bottom: 2rem;
+}
+
+.about-image-card img,
+.nurse-with-women {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.about-text h3,
+.about-core-values {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.about-text h3:first-child {
+  margin-top: 0;
+}
+
+.about-text p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.values-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.value-item {
+  background: var(--accent-color);
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.value-item:hover {
+  transform: translateY(-5px);
+}
+
+.value-item h4 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.who-we-serve {
+  margin-top: 4rem;
+  background: var(--accent-color);
+  padding: 3rem;
+  border-radius: 15px;
+}
+
+.who-we-serve h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.who-we-serve p {
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
